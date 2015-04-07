@@ -10,7 +10,7 @@ Partial Class ContactUs
 
         Dim msg As New MailMessage
         Dim client As New SmtpClient
-       
+
         msg.To.Add("michael-colbert@uiowa.edu")  'destination email address
         msg.From = New MailAddress(senderEmail.Text)  'account used to send the email.
         msg.Subject = "web contact form test"

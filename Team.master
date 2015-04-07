@@ -20,11 +20,21 @@
         <a href="PlayerDetails.aspx" style="color: #ffd800">Player Details</a>&nbsp; |&nbsp;
         <a href="AboutUS.aspx" style="color: #ffd800">About Us</a>&nbsp; |&nbsp;
         <a href="ContactUs.aspx" style="color: #ffd800">Contact Us</a>&nbsp; |&nbsp;
+        <a href="login.aspx" style=""color: #ffd800">Login</a>&nbsp; |&nbsp;
+        <a href="Search.aspx" style="color: #ffd800">Search</a>&nbsp; |&nbsp;
     <div> 
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
         
         </asp:ContentPlaceHolder>
     </div>
+
+    <div id="footer">
+        &copy; 2015 MSCI:3300 - Software Design and Development Today &#39;s Date is:
+        <asp:Label ID="lbl_date" runat="server" Text="Label"></asp:Label>
+        <asp:Label ID="lbl_time" runat="server" Text="Label"></asp:Label>
+    </div>
+
+        
     </form>
 </body>
 </html> 
