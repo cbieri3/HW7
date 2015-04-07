@@ -21,7 +21,7 @@
         <a href="AboutUS.aspx" style="color: #ffd800">About Us</a>&nbsp; |&nbsp;
         <a href="ContactUs.aspx" style="color: #ffd800">Contact Us</a>&nbsp; |&nbsp;
         <a href="login.aspx" style=""color: #ffd800">Login</a>&nbsp; |&nbsp;
-        <a href="Search.aspx" style="color: #ffd800">Search</a>&nbsp; |&nbsp;
+        <a href="Search.aspx" style="color: #ffd800">Search</a>&nbsp; |&nbsp;"
     <div> 
         <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
         
